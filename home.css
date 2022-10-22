@@ -3,17 +3,98 @@ body{
 }
 header{
     height: 80px;
-    border: 2px solid red;
+    background-color: #ef4f5f;
+    color: white;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: #ef4f5f;
+    border: transparent;
+   
+}
+#login{
+    border-radius: 25px 25px 25px 25px;
+}
+#Register{
+    border-radius: 25px 25px 25px 25px;
 }
 #Search{
-    height: 400px;
-    border: 5px solid blue;
+    height: 450px;
+    background-image: url(images/yo.jpg);
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    height: 175px;
+    width: 175px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 3%;
+}
+#logo span{
+    font-size: 90px;
+    margin-top: 18%;
+    margin-left:25% ;
+    position: absolute;
+}
+#heading{
+    font-size: 50px;
+    margin-top: 18%;
+    margin-left:25% ;
+    position: absolute;
+    color: white;
+    margin-left: 22%;
+    margin-top: 13%;
+}
+.dropdown{
+    height: 60px;
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 22%;
+    position: absolute;
+   
+}
+select{
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+.Restselect{
+    width: 59%;
 }
 #Quick_Search{
     height: 600px;
     border: 5px solid yellow;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 footer{
     height: 100px;
     border: 2px solid darkgreen;
+}
+#icon{
+    float: left;
+    display: flex;
+}
+#icon h1{
+    margin: 10%;
+}
+#icon button{
+    margin: 7%;  
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+#social{
+    float: right;
+    margin-top: 14px;
+    margin-right: 3%;
 }
